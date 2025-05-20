@@ -10,7 +10,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 root = Tk()
 
-state = [1, 2, 3, 4, 5, 6, 7, 8, 0]
+state = [1, 2, 3, 4, 5, 6, 7, 9 8, 0]
 puzzle = EightPuzzle(tuple(state))
 solution = None
 
